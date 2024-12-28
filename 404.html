@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!-- basic page needs -->
+    <meta charset="utf-8">
+    <title>404</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        .content {
+            max-width: 600px;
+            padding: 20px;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="text-huge-title">404</h1>
+        <p class="lead">Page not found: /<span id="filename">unknown</span></p>
+    </div>
+
+    <script>
+        // JavaScript to dynamically insert the filename
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get the current URL path
+            const path = window.location.pathname;
+            const filename = path.split('/').pop() || 'unknown';
+
+            // Update the span with the filename
+            document.getElementById('filename').textContent = filename;
+        });
+    </script>
+</body>
+</html>
