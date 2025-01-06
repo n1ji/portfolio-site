@@ -1,0 +1,3 @@
+[submodule "it211-staging-area"]
+	path = it211-staging-area
+	url = https://github.com/n1ji/it211-staging-area.git
