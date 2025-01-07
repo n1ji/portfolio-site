@@ -1,4 +1,4 @@
-# Portfolio Website - [n1ji.xyz](https://n1ji.xyz)
+# Portfolio Website - [rudy.red](https://rudy.red)
 
 ## Introduction
 Welcome to my personal portfolio website! This site showcases my projects, skills, and accomplishments. It's designed to provide a quick overview of my professional journey and creative work.
