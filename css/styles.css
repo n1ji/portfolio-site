@@ -3830,12 +3830,12 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.6);
+    background-color : rgba(0, 0, 0, 0.8);
     font-size        : var(--text-xs);
+    font-weight      : 300;
     line-height      : var(--vspace-1_25);
     color            : white;
-    padding          : 0 1.2rem;
-    position         : absolute;
+    padding          : 0 1.2rem;    position         : absolute;
     top              : var(--vspace-1);
     left             : var(--vspace-1);
 }
