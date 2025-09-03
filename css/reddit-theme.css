@@ -1,0 +1,61 @@
+:root:has(input.theme-controller[value=reddit-dark]:checked),[data-theme="reddit-dark"] {
+  --color-base-100: oklch(0.2284 0.006 236.82);
+  --color-base-200: oklch(0.3303 0.0045 219.61);
+  --color-base-300: oklch(0.515 0.0041 219.57);
+  --color-base-content: oklch(100% 0 0);
+  --color-primary: oklch(0.6602 0.229356 35.4025);
+  --color-primary-content: oklch(97% 0.021 166.113);
+  --color-secondary: oklch(0.6513 0.1119 188.67);
+  --color-secondary-content: oklch(97% 0.021 166.113);
+  --color-accent: oklch(0.8404 0.1712 83.85);
+  --color-accent-content: oklch(98% 0.031 120.757);
+  --color-neutral: oklch(43% 0 0);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(0.8133 0.1571 172.37);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(0.8756 0.2237 127.03);
+  --color-success-content: oklch(27% 0.046 192.524);
+  --color-warning: oklch(0.6943 0.182594 50.3671);
+  --color-warning-content: oklch(27% 0.077 45.635);
+  --color-error: oklch(0.7221 0.2181 345.83);
+  --color-error-content: oklch(25% 0.092 26.042);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+}
+
+:root:has(input.theme-controller[value=reddit-light]:checked),[data-theme="reddit-light"] {
+  --color-base-100: oklch(1 0 0);
+  --color-base-200: oklch(0.908 0.0042 236.5);
+  --color-base-300: oklch(0.8338 0.0036 219.54);
+  --color-base-content: oklch(0% 0 0);
+  --color-primary: oklch(0.6602 0.229356 35.4025);
+  --color-primary-content: oklch(97% 0.021 166.113);
+  --color-secondary: oklch(0.6513 0.1119 188.67);
+  --color-secondary-content: oklch(97% 0.021 166.113);
+  --color-accent: oklch(0.8404 0.1712 83.85);
+  --color-accent-content: oklch(98% 0.031 120.757);
+  --color-neutral: oklch(43% 0 0);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(0.8133 0.1571 172.37);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(0.8756 0.2237 127.03);
+  --color-success-content: oklch(27% 0.046 192.524);
+  --color-warning: oklch(0.6943 0.182594 50.3671);
+  --color-warning-content: oklch(27% 0.077 45.635);
+  --color-error: oklch(0.7221 0.2181 345.83);
+  --color-error-content: oklch(25% 0.092 26.042);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+}
